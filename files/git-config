@@ -1,0 +1,5 @@
+[user]
+	email = batfink66@gmail.com
+	name = batfink66
+[core]
+	editor = atom -w
