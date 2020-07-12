@@ -1,4 +1,4 @@
-!/bin/bash
+#!/bin/bash
 
 # update centos but exclude kernel packages 
 yum update -y --exclude=kernel
