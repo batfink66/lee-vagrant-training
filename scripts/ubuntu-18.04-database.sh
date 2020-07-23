@@ -1,10 +1,10 @@
 #!/bin/bash
 
-# MySQL
-apt install -y mysql mysql-server mysql-devel
-chkconfig --add mysqld
-chkconfig mysqld on
+apt update -y 
 
-service mysqld start
+# MySQL
+apt install -y mysql-server 
+systemctl start mysql
+systemctl enable mysql
 
 mysql -u root -e "SHOW DATABASES";
